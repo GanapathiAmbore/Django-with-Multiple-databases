@@ -21,7 +21,8 @@ from mysqlapp import  views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.model_form_upload,name="home")
+    path('',views.model_form_upload,name="home"),
+    path('list/',views.Teacher,name="list")
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
