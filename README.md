@@ -4,4 +4,6 @@ b)This is done using the DATABASES setting. This setting maps database aliases, 
 c)You will find the complete documentation here <br />
 d)https://docs.djangoproject.com/en/2.1/topics/db/multi-db/#defining-your-databases<br />
 you will find complete description here
-[Django-with-multiple-database]('https://ganapathiambore.blogspot.com/2019/06/how-to-configure-multiple-databases-in.html')
+```
+[Django-with-multiple-databases](https://ganapathiambore.blogspot.com/2019/06/how-to-configure-multiple-databases-in.html)
+
