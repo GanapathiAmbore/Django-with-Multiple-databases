@@ -5,6 +5,13 @@
     <title>Title</title>
 </head>
 <body>
+{% for object in teacher_list %}
+    {{ object.name }}
+    {{ object.email }}
+    {{ object.date }}
+    {{ object.phone_number }}
+    {{ object.address }}
+{% endfor %}
 
 </body>
 </html>
